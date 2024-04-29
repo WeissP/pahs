@@ -1,0 +1,16 @@
+cradle:
+  multi:
+    # - path: "ignore/"
+    #   config: {cradle: {none: }}
+
+    - path: "src"
+      config: {cradle: {cabal: {component: "lib:pahs"}}}
+
+    - path: "app"
+      config: {cradle: {cabal: {component: "pahs:pahs-exe"}}}
+
+    - path: "test"
+      config: {cradle: {cabal: {component: "pahs:pahs-test"}}}
+
+    - path: "bench"
+      config: {cradle: {cabal: {component: "pahs:pahs-bench"}}}
