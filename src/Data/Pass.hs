@@ -1,4 +1,4 @@
-module Lib where
+module Data.Pass where
 
 import MyPrelude
 import RIO.ByteString.Lazy qualified as BL

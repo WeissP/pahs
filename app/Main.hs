@@ -1,4 +1,4 @@
-import Lib
+import Data.Pass
 import MyPrelude
 import RIO.Process
 import RIO.Text qualified as T

@@ -95,7 +95,7 @@ library
     , validity-text
 
   exposed-modules:
-    Lib
+    Data.Pass
     MyPrelude
 
 executable pahs-type
