@@ -7,7 +7,7 @@ license-file:    LICENSE
 author:          weiss
 maintainer:      weiss <kingbaiing@163.com>
 copyright:       2024 weiss
-tested-with:     GHC ==8.6.5 || ==8.8.3 || ==8.10.7 || ==9.0.2 || ==9.2.2
+tested-with:     GHC ==9.6.4
 extra-doc-files:
   CHANGELOG.md
   README.md
