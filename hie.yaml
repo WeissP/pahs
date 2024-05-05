@@ -7,7 +7,7 @@ cradle:
       config: {cradle: {cabal: {component: "lib:pahs"}}}
 
     - path: "app"
-      config: {cradle: {cabal: {component: "pahs:pahs-exe"}}}
+      config: {cradle: {cabal: {component: "pahs:pahs-type"}}}
 
     - path: "test"
       config: {cradle: {cabal: {component: "pahs:pahs-test"}}}

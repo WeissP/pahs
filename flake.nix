@@ -53,7 +53,11 @@
             };
           };
       in flake // {
-        packages = { default = flake.packages."pahs:exe:pahs-exe"; };
+        packages = rec {
+          pahs-lib = flake.packages."pahs:lib:pahs";
+          pahs-type = flake.packages."pahs:exe:pahs-type";
+          default = pahs-type;
+        };
         devShells = { default = shellWithToml [ ]; };
       });
 
